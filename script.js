@@ -23,19 +23,19 @@ function desenhar() {
     );
    
 if (i === 0) {
-  ctx.fillStyle = "rgb(0, 0, 0)";
+  ctx.fillStyle = "rgba(6, 8, 7, 0.67)";
 }
 
 if (i === 1) {
-  ctx.fillStyle = "rgba(255, 0, 0, 0.92)";
+  ctx.fillStyle = "rgba(222, 114, 20, 0.92)";
 }
 
 if (i === 2) {
-  ctx.fillStyle = "rgb(0, 255, 110)";
+  ctx.fillStyle = "rgba(6, 8, 7, 0.67)";
 }
 
 if (i === 3) {
-  ctx.fillStyle = "rgb(0, 140, 255)";
+  ctx.fillStyle = "rgba(222, 114, 20, 0.92)";
 }
 
 ctx.fill();
